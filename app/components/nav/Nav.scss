@@ -1,0 +1,24 @@
+
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    background-color: gray;
+    margin-top: 20px;
+}   
+.nav__logo-wrapper{
+    flex: 1;
+}
+.header__nav{
+    padding: 1rem 0 ;
+}
+.nav__logo:hover{
+    opacity: 0.7;
+}
+
+
+.nav__menu{
+    display: flex;
+    align-items: center;
+    color: #000;
+    gap: 0 1.5rem  ;
+}
