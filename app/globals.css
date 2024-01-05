@@ -3,9 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+:root{
+  --container-size: 1200px;
+  --main-accent-color: #05a081;
+  --main-dark-color: #000;
+  --main-light-color: #fff;
+}
+body{
+  font-family: sans-serif;
+}
+ul{
+  list-style-type: none;
+}
 .container{
+  max-width: var(--container-size);
   width: 100%;
-  max-width: 1250px;
+  height: 100%;
   margin: 0 auto;
   padding: 0px 1rem;
 }
